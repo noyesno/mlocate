@@ -232,7 +232,7 @@ uc_lex (void)
 	    return UCT_EOF;
 	}
       while (c != '\n');
-      /* Fall through */
+      /* Fall through */ /* no break */
     case '\n':
       uc_current_line++;
       if (uc_current_line == 0)

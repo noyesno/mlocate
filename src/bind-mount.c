@@ -155,7 +155,7 @@ parse_mount_string (char **dest, char **string)
 		  break;
 		}
 	    }
-	  /* Else fall through */
+	  /* Else fall through */ /* no break */
 
 	default:
 	  obstack_1grow (&mount_string_obstack, c);
