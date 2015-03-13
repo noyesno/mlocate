@@ -1,4 +1,5 @@
 .*~$
+^\.zanata-cache/etag-cache.xml$
 ^admin.*
 ^autom4te\.cache.*
 ^gnulib/lib.*

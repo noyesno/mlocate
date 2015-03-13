@@ -1,5 +1,10 @@
 2015-03-13  Miloslav Trmač  <mitr@redhat.com>
 
+	* .tx/config: Remove.
+	* zanata.xml: Add.  To pull updated translations, run (zanata-cli pull).
+
+2015-03-13  Miloslav Trmač  <mitr@redhat.com>
+
 	* src/bind-mount.c (parse_mount_string)
 	* src/conf.c (uc_lex): Add /* no break */ comments to help Eclipse.
 
