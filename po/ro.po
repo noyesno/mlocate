@@ -1,0 +1,379 @@
+# Mesajele în limba română pentru mlocate.
+# Copyright (C) 2015 Red Hat, Inc
+# This file is distributed under the same license as the mlocate package.
+# Mihai Cristescu <mihai.cristescu@archlinux.info>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mlocate 0.26\n"
+"Report-Msgid-Bugs-To: https://fedorahosted.org/mlocate/\n"
+"POT-Creation-Date: 2012-09-22 04:14+0200\n"
+"PO-Revision-Date: 2015-03-20 19:35+0200\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"Last-Translator: Mihai Cristescu <mihai.cristescu@archlinux.info>\n"
+"Language-Team: Mihai Cristescu <mihai.cristescu@archlinux.info>\n"
+"X-Generator: Poedit 1.7.4\n"
+
+#: src/conf.c:241
+msgid "warning: Line number overflow"
+msgstr "avertisment: depășirea numărului de linii"
+
+#: src/conf.c:259
+msgid "missing closing `\"'"
+msgstr "lipsește `\"' de închidere"
+
+#: src/conf.c:309 src/locate.c:985 src/updatedb.c:921
+#, c-format
+msgid "can not open `%s'"
+msgstr "nu se poate deschide `%s'"
+
+#: src/conf.c:353
+#, c-format
+msgid "unknown variable `%s'"
+msgstr "variabila `%s' este necunoscută"
+
+#: src/conf.c:358
+msgid "variable name expected"
+msgstr "se așteaptă un nume de variabilă"
+
+#: src/conf.c:364
+#, c-format
+msgid "variable `%s' was already defined"
+msgstr "variabila `%s' era deja definită"
+
+#: src/conf.c:373
+msgid "`=' expected after variable name"
+msgstr "se așteaptă `=' după numele variabilei"
+
+#: src/conf.c:380
+msgid "value in quotes expected after `='"
+msgstr "se așteaptă o valoare între ghilimele după `='"
+
+#: src/conf.c:388
+#, c-format
+msgid "invalid value `%s' of PRUNE_BIND_MOUNTS"
+msgstr "valoare nevalidă `%s' pentru PRUNE_BIND_MOUNTS"
+
+#: src/conf.c:405
+msgid "unexpected data after variable value"
+msgstr "date neașteptate după valoarea variabilei"
+
+#: src/conf.c:419 src/lib.c:266
+#, c-format
+msgid "I/O error reading `%s'"
+msgstr "eroare I/O la citirea `%s'"
+
+#: src/conf.c:437
+#, c-format
+msgid ""
+"Usage: updatedb [OPTION]...\n"
+"Update a mlocate database.\n"
+"\n"
+"  -f, --add-prunefs FS           omit also FS\n"
+"  -n, --add-prunenames NAMES     omit also NAMES\n"
+"  -e, --add-prunepaths PATHS     omit also PATHS\n"
+"  -U, --database-root PATH       the subtree to store in database (default \"/\")\n"
+"  -h, --help                     print this help\n"
+"  -o, --output FILE              database to update (default\n"
+"                                 `%s')\n"
+"      --prune-bind-mounts FLAG   omit bind mounts (default \"no\")\n"
+"      --prunefs FS               filesystems to omit from database\n"
+"      --prunenames NAMES         directory names to omit from database\n"
+"      --prunepaths PATHS         paths to omit from database\n"
+"  -l, --require-visibility FLAG  check visibility before reporting files\n"
+"                                 (default \"yes\")\n"
+"  -v, --verbose                  print paths of files as they are found\n"
+"  -V, --version                  print version information\n"
+"\n"
+"The configuration defaults to values read from\n"
+"`%s'.\n"
+msgstr ""
+"Folosire: updatedb [OPȚIUNE]...\n"
+"Actualizează o bază de date mlocate.\n"
+"\n"
+"  -f, --add-prunefs FS            omite și sistemele de fișiere FS\n"
+"  -n, --add-prunenames NUME       omite și numele NUME\n"
+"  -e, --add-prunepaths CĂI        omite și căile CĂI\n"
+"  -U, --database-root CALE        cale radăcină pentru a stoca baza de date (implicit \"/\")\n"
+"  -h, --help                      afișează acest text de ajutor\n"
+"  -o, --output FIȘIER             bază de date de actualizat (implicit\n"
+"                                  `%s')\n"
+"      --prune-bind-mounts SETARE  omite legăturile de montare (implicit \"no\")\n"
+"      --prunefs FS                sisteme de fișiere de omis din baza de date\n"
+"      --prunenames NUME           numele de omis din baza de date\n"
+"      --prunepaths CĂI            căile de omis din baza de date\n"
+"  -l, --require-visibility SETARE verifică vizibilitatea înainte de a raporta fișiere\n"
+"                                  (implicit \"yes\")\n"
+"  -v, --verbose                   afișează căile fișierelor pe măsură ce acestea sunt găsite\n"
+"  -V, --version                   afișează informații despre versiune\n"
+"\n"
+"Configurarea este creată în mod implicit cu valorile citite din\n"
+"`%s'.\n"
+
+#: src/conf.c:464 src/locate.c:654
+#, c-format
+msgid ""
+"\n"
+"Report bugs to %s.\n"
+msgstr ""
+"\n"
+"Raportați erorile la %s.\n"
+
+#: src/conf.c:482
+msgid "can not get current working directory"
+msgstr "nu se poate determina directorul de lucru curent"
+
+#: src/conf.c:540 src/conf.c:551 src/conf.c:561 src/conf.c:571
+#: src/locate.c:714 src/locate.c:723 src/locate.c:749 src/locate.c:807
+#, c-format
+msgid "--%s would override earlier command-line argument"
+msgstr "--%s ar suprascrie argumentul anterior din linia de comandă"
+
+#: src/conf.c:544 src/conf.c:584 src/conf.c:617 src/locate.c:786
+#, c-format
+msgid "invalid value `%s' of --%s"
+msgstr "valoare nevalidă `%s' din --%s"
+
+#: src/conf.c:580 src/conf.c:613 src/conf.c:628 src/locate.c:780
+#, c-format
+msgid "--%s specified twice"
+msgstr "--%s specificat de două ori"
+
+#: src/conf.c:590 src/locate.c:739
+msgid ""
+"Copyright (C) 2007 Red Hat, Inc. All rights reserved.\n"
+"This software is distributed under the GPL v.2.\n"
+"\n"
+"This program is provided with NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"Drepturi de autor (C) 2007 Red Hat, Inc. Toate drepturile rezervate.\n"
+"Acest software este distribuit sub licența GPL v.2.\n"
+"\n"
+"Acest program este oferit fără NICIO GARANȚIE, în măsura permisă de lege."
+
+#: src/conf.c:646
+msgid "unexpected operand on command line"
+msgstr "operand neașteptat în linia de comandă"
+
+#: src/lib.c:199
+#, c-format
+msgid "`%s' does not seem to be a mlocate database"
+msgstr "`%s' nu pare să fie o bază de date mlocate"
+
+#: src/lib.c:206
+#, c-format
+msgid "`%s' has unknown version %u"
+msgstr "`%s' are versiunea necunoscută %u"
+
+#: src/lib.c:213
+#, c-format
+msgid "`%s' has unknown visibility flag %u"
+msgstr "`%s' are marcaj de vizibilitate %u invalid"
+
+#: src/lib.c:268
+#, c-format
+msgid "unexpected EOF reading `%s'"
+msgstr "EOF neașteptat la citirea `%s'"
+
+#: src/lib.c:363
+#, c-format
+msgid "I/O error seeking in `%s'"
+msgstr "eroare de I/O la căutarea în `%s'"
+
+#: src/locate.c:338
+#, c-format
+msgid "Database %s:\n"
+msgstr "Bază de date %s:\n"
+
+#: src/locate.c:341
+#, c-format
+msgid "\t%'ju directory\n"
+msgid_plural "\t%'ju directories\n"
+msgstr[0] "\t%'ju director\n"
+msgstr[1] "\t%'ju directoare\n"
+msgstr[2] "\t%'ju de directoare\n"
+
+#: src/locate.c:343
+#, c-format
+msgid "\t%'ju file\n"
+msgid_plural "\t%'ju files\n"
+msgstr[0] "\t%'ju fișier\n"
+msgstr[1] "\t%'ju fișiere\n"
+msgstr[2] "\t%'ju de fișiere\n"
+
+#: src/locate.c:345
+#, c-format
+msgid "\t%'ju byte in file names\n"
+msgid_plural "\t%'ju bytes in file names\n"
+msgstr[0] "\t%'ju octet în numele fișierelor\n"
+msgstr[1] "\t%'ju octeți în numele fișierelor\n"
+msgstr[2] "\t%'ju de octeți în numele fișierelor\n"
+
+#: src/locate.c:347
+#, c-format
+msgid "\t%'ju byte used to store database\n"
+msgid_plural "\t%'ju bytes used to store database\n"
+msgstr[0] "\t%'ju octet folosit pentru a stoca baza de date\n"
+msgstr[1] "\t%'ju octeți folosiți pentru a stoca baza de date\n"
+msgstr[2] "\t%'ju de octeți folosiți pentru a stoca baza de date\n"
+
+#: src/locate.c:483
+#, c-format
+msgid "invalid empty directory name in `%s'"
+msgstr "nume gol invalid de director  în `%s'"
+
+#: src/locate.c:510
+#, c-format
+msgid "file name length %zu in `%s' is too large"
+msgstr "lungimea %zu a numelui de fișier este prea mare în `%s'"
+
+#: src/locate.c:617
+#, c-format
+msgid ""
+"Usage: locate [OPTION]... [PATTERN]...\n"
+"Search for entries in a mlocate database.\n"
+"\n"
+"  -A, --all              only print entries that match all patterns\n"
+"  -b, --basename         match only the base name of path names\n"
+"  -c, --count            only print number of found entries\n"
+"  -d, --database DBPATH  use DBPATH instead of default database (which is\n"
+"                         %s)\n"
+"  -e, --existing         only print entries for currently existing files\n"
+"  -L, --follow           follow trailing symbolic links when checking file\n"
+"                         existence (default)\n"
+"  -h, --help             print this help\n"
+"  -i, --ignore-case      ignore case distinctions when matching patterns\n"
+"  -l, --limit, -n LIMIT  limit output (or counting) to LIMIT entries\n"
+"  -m, --mmap             ignored, for backward compatibility\n"
+"  -P, --nofollow, -H     don't follow trailing symbolic links when checking file\n"
+"                         existence\n"
+"  -0, --null             separate entries with NUL on output\n"
+"  -S, --statistics       don't search for entries, print statistics about each\n"
+"                         used database\n"
+"  -q, --quiet            report no error messages about reading databases\n"
+"  -r, --regexp REGEXP    search for basic regexp REGEXP instead of patterns\n"
+"      --regex            patterns are extended regexps\n"
+"  -s, --stdio            ignored, for backward compatibility\n"
+"  -V, --version          print version information\n"
+"  -w, --wholename        match whole path name (default)\n"
+msgstr ""
+"Folosire: locate [OPȚIUNE]... [ȘABLON]...\n"
+"Caută intrări într-o bază de date mlocate.\n"
+"\n"
+"  -A, --all               afișează doar intrările care se potrivesc cu toate șabloanele\n"
+"  -b, --basename          caută doar în baza numelui din numele căilor\n"
+"  -c, --count             afișează doar numărul intrărilor găsite\n"
+"  -d, --database CALE_BD  folosește CALE_BD în locul bazei de date implicite (aceasta este\n"
+"                          %s)\n"
+"  -e, --existing          afișează doar intrările pentru fișierele curente existente\n"
+"  -L, --follow            urmărește sfârșitul legăturilor simbolice la verificarea\n"
+"                          existenței fișierelor (implicit)\n"
+"  -h, --help              afișează acest text de ajutor\n"
+"  -i, --ignore-case       ignoră distincția majusculelor  la căutarea șabloanelor\n"
+"  -l, --limit, -n LIMITĂ  limitează ieșirea (sau contorizarea) la un număr de LIMITĂ intrări\n"
+"  -m, --mmap              ignorată, pentru compatibilitate cu versiunile anterioare\n"
+"  -P, --nofollow, -H      nu urmărește sfârșitul legăturilor simbolice la verificarea\n"
+"                          existenței fișierelor (implicit)\n"
+"  -0, --null              separă intrările cu NUL la ieșire\n"
+"  -S, --statistics        nu caută intrări, afișează doar statistici despre fiecare\n"
+"                          bază de date folosită\n"
+"  -q, --quiet             nu raporta mesaje de eroare la citirea bazelor de date\n"
+"  -r, --regexp REGEXP     caută cu expresii regulate REGEXP în locul șabloanelor\n"
+"      --regex             șabloanele sunt expresii regulate extinse\n"
+"  -s, --stdio             ignorată, pentru compatibilitate cu versiunile anterioare\n"
+"  -V, --version           afișează informații despre versiune\n"
+"  -w, --wholename         caută în tot numele de cale (implicit)\n"
+
+#: src/locate.c:823
+#, c-format
+msgid "non-option arguments are not allowed with --%s"
+msgstr "argumentele fără opțiune nu sunt permise cu --%s"
+
+#: src/locate.c:836
+msgid "no pattern to search for specified"
+msgstr "nu s-a specificat niciun șablon de căutare"
+
+#: src/locate.c:863
+#, c-format
+msgid "invalid regexp `%s': %s"
+msgstr "expresie regulată `%s' invalidă: %s"
+
+#: src/locate.c:949
+msgid "can not drop privileges"
+msgstr "nu se pot abandona privilegile"
+
+#: src/locate.c:964
+msgid "can not read two databases from standard input"
+msgstr "nu se pot citi două baze de date de la intrarea standard"
+
+#: src/locate.c:976 src/locate.c:991 src/updatedb.c:1009
+#, c-format
+msgid "can not stat () `%s'"
+msgstr "nu se poate face stat () `%s'"
+
+#: src/locate.c:1051 src/updatedb.c:1033
+msgid "I/O error while writing to standard output"
+msgstr "eroare de I/O în timpul scrierii la ieșirea standard"
+
+#: src/updatedb.c:580 src/updatedb.c:687
+#, c-format
+msgid "file name length %zu is too large"
+msgstr "lungimea numelui de fișier %zu este prea mare"
+
+#: src/updatedb.c:679
+#, c-format
+msgid "file system error: zero-length file name in directory %s"
+msgstr "eroare de sistem de fișiere: lungime zero a numelui de fișier în directorul %s"
+
+#: src/updatedb.c:915
+#, c-format
+msgid "can not open a temporary file for `%s'"
+msgstr "nu se poate deschide un fișier temporar pentru `%s'"
+
+#: src/updatedb.c:928
+msgid "configuration is too large"
+msgstr "configurarea este prea mare"
+
+#: src/updatedb.c:949
+#, c-format
+msgid "can not find group `%s'"
+msgstr "nu se poate găsi grupul `%s'"
+
+#: src/updatedb.c:952
+#, c-format
+msgid "can not change group of file `%s' to `%s'"
+msgstr "nu se poate schimba grupul fișierului `%s' în `%s'"
+
+#: src/updatedb.c:966
+#, c-format
+msgid "can not change permissions of file `%s'"
+msgstr "nu se pot modifica permisiunile fișierului `%s'"
+
+#: src/updatedb.c:997
+#, c-format
+msgid "`%s' is locked (probably by an earlier updatedb)"
+msgstr "`%s' este blocat (probabil o comandă updatedb anterioară)"
+
+#: src/updatedb.c:999
+#, c-format
+msgid "can not lock `%s'"
+msgstr "nu se poate bloca `%s'"
+
+#: src/updatedb.c:1006
+#, c-format
+msgid "can not change directory to `%s'"
+msgstr "nu se poate schimba directorul în `%s'"
+
+#: src/updatedb.c:1015
+#, c-format
+msgid "I/O error while writing to `%s'"
+msgstr "eroare I/O în timpul scrierii în `%s'"
+
+#: src/updatedb.c:1019
+#, c-format
+msgid "error replacing `%s'"
+msgstr "eroare la înlocuirea `%s'"
