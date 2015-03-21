@@ -2,7 +2,7 @@
 <config xmlns="http://zanata.org/namespace/config/">
   <url>https://fedora.zanata.org/</url>
   <project>mlocate</project>
-  <project-version>master</project-version>
+  <project-version>default</project-version>
   <project-type>gettext</project-type>
   <src-dir>po</src-dir>
   <trans-dir>po</trans-dir>
