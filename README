@@ -25,9 +25,12 @@ Portability
 mlocate should be portable to all SUSv3-compliant UNIXes, although it is
 currently tested only on recent Linux distributions.
 
-Bugs
+Bugs 
 ====
 Please consider reporting the bug to your distribution's bug tracking system.
 
 Otherwise, report bugs at https://fedorahosted.org/mlocate/ .  Bug reports
 with patches are especially welcome.
+
+Translations can be contributed through
+https://fedora.zanata.org/project/view/mlocate/ .
