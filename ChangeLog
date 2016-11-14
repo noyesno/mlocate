@@ -1,3 +1,9 @@
+2016-11-14  Miloslav Trmač  <mitr@redhat.com>
+
+	* src/db.h (DB_H__): Rename to...
+	(MLOCATE_DB_H__): ... to minimize risk of conflicts when the header file
+	is installed to /usr/include.
+
 2015-05-04  Miloslav Trmač  <mitr@redhat.com>
 
 	* README: Add a link to the translation system.

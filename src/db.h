@@ -13,8 +13,8 @@ PARTICULAR PURPOSE.
 
 Author: Miloslav Trmac <mitr@redhat.com> */
 
-#ifndef DB_H__
-#define DB_H__
+#ifndef MLOCATE_DB_H__
+#define MLOCATE_DB_H__
 
 #include <stdint.h>
 
