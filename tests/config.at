@@ -75,7 +75,7 @@ Update a mlocate database.
 The configuration defaults to values read from
 `PATH'.
 
-Report bugs to mitr@redhat.com.
+Report bugs to https://pagure.io/mlocate.
 ]])
 AT_CHECK([[updatedb -h | sed "s/\`[^']*'/\`PATH'/g"]], , [expout])
 AT_CHECK([[updatedb --help | sed "s/\`[^']*'/\`PATH'/g"]], , [expout])

@@ -247,7 +247,7 @@ Search for entries in a mlocate database.
   -V, --version          print version information
   -w, --wholename        match whole path name (default)
 
-Report bugs to mitr@redhat.com.
+Report bugs to https://pagure.io/mlocate.
 ]])
 
 AT_CHECK([[locate -h | sed 's,^\([ 	]*\)/.*)$,\1PATH),']], , [expout])

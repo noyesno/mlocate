@@ -9,7 +9,7 @@ The locate(1) utility is intended to be completely compatible to slocate.  It
 also attempts to be compatible to GNU locate, when it does not conflict with
 slocate compatibility.
 
-New releases will be available at https://fedorahosted.org/mlocate/ .
+New releases will be available at https://pagure.io/mlocate .
 
 Installation
 ============
@@ -29,8 +29,8 @@ Bugs
 ====
 Please consider reporting the bug to your distribution's bug tracking system.
 
-Otherwise, report bugs at https://fedorahosted.org/mlocate/ .  Bug reports
-with patches are especially welcome.
+Otherwise, report bugs at https://pagure.io/mlocate .  Pull requests are
+especially welcome.
 
 Translations can be contributed through
 https://fedora.zanata.org/project/view/mlocate/ .
